@@ -18,4 +18,12 @@
 
 // put new methods here
 
+-(void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
+    [character flap];
+}
+
+-(NSArray *) addThisToArray: (NSString*)fst andThisOne: (NSString*)sst andAlsoThis: (NSString*)tsd{
+    return [NSArray arrayWithObjects: fst, sst, tsd, nil];
+}
+
 @end
