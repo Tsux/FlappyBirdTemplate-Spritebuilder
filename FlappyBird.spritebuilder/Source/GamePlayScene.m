@@ -20,7 +20,6 @@
         [self addObstacle];
         timeSinceObstable = 0.0f;
     }
-    log(delta);
     
 }
 
